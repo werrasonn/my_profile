@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 /* General reset */
 * {
-  margin: 0;
-  padding: 0;
+  margin-left: 200px;
+  padding: 20px;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
@@ -15,20 +15,6 @@ body {
   padding: 20px;
 }
 
-/* Header
-header {
-  background-color: #e6e7f0cb;
-  color: #fff;
-  padding: 20px 0;
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto; /* Center container horizontally */
- */
 
 header h1 {
   font-size: 24px;
@@ -36,27 +22,7 @@ header h1 {
   text-align: center;
 }
 
-/* nav ul {
-  list-style: none;
-  display: flex;
-}
 
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-nav ul li a:hover {
-  color: #f4f4f4;
-  text-decoration: underline;
-} */
-
-/* Home Section */
 #home {
   display: flex;
   justify-content: space-around;
@@ -67,15 +33,17 @@ nav ul li a:hover {
 }
 
 .profile-image img {
-  width: 150px; /* Set a fixed width */
-  height: 150px; /* Set a fixed height to match the width */
+  margin-left: 200px; /* Adds 200px space from the left */
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height to match the width */
   object-fit: cover; /* Ensures the image fits within the container and maintains its aspect ratio */
   border-radius: 50%; /* Makes the image a circle */
-  justify-content: center;      /* Center horizontally */
-  box-shadow: 0 5px 10px rgba (0, 0, 0, 0.1); /* Optional: Adds a shadow around the image */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow around the image */
 }
 
+
 .intro {
+  margin-left: 200px;
   max-width: 600px;
   border-radius: 15px; /* Softer edges */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
@@ -117,6 +85,7 @@ nav ul li a:hover {
 
 /* About Section */
 #about {
+  margin-left: 200px;
   background-color: #bed3d0ee;
   padding: 50px 20px;
   margin-top: 50px;
@@ -142,6 +111,7 @@ nav ul li a:hover {
 }
 
 #skills {
+  margin-left: 200px;
   background-color: #bed3d0ee;
   color: #fff;
   padding: 50px 20px;
@@ -203,6 +173,7 @@ nav ul li a:hover {
 
 /* Projects Section */
 #projects {
+  margin-left: 200px;
   background-color: #fff;
   padding: 50px 20px;
   margin-top: 50px;
@@ -263,7 +234,7 @@ Hamburger Menu Button
   position: absolute;
   top: 0;
   left: 0;
-  width: 250px; /* Adjust width as needed */
+  width: 200px; /* Adjust width as needed */
   height: 100%;
   transition: left 0.3s ease-in-out; /* Smooth transition for menu animation */
   z-index: 10; /* Ensure the menu appears above content */
