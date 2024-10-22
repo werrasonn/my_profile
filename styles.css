@@ -80,6 +80,7 @@ nav ul li a:hover {
   border-radius: 15px; /* Softer edges */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
   text-align: justify; /* Justifies the text */
+  padding: 20px;
 }
 
 .intro h2 {
@@ -445,4 +446,52 @@ body{
 
 .wrapper .main_content .info div{
   margin-bottom: 20px;
+}
+#portfolio {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.project p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #3c3eddcb;
+  font-weight: bold;
+}
+
+.project a:hover {
+  color: #555;
+  text-decoration: underline;
 }
