@@ -254,9 +254,15 @@ Hamburger Menu Button
 }
 
 .sidebar li a:hover {
-  background-color: #eee;
-}
 
+  background-color: #3344db;
+}
+.sidebar li a {
+  color: #6447f5;
+  display: block;
+  padding: 15px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
 /* Hamburger Menu Icon */
 .hamburger-menu {
   display: flex;
